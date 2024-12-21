@@ -8,7 +8,7 @@ from sklearn.neighbors import KNeighborsClassifier
 import joblib
 
 # Load the dataset
-data = pd.read_csv("C:/Users/anchu/OneDrive/Documents/employee attrition prediction/data_final.csv", index_col=0)
+data = pd.read_csv("data_final.csv", index_col=0)
 
 # Drop unnecessary columns
 columns_to_drop = ["IncomePerYearWorked", "SatisfactionIndex"]
